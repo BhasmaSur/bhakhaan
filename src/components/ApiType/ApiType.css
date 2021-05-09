@@ -1,0 +1,37 @@
+.api-url-container{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+    margin-top: 1.5rem;
+    padding: 2rem;
+}
+.api-url-box{
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: row;
+}
+.api-title{
+    margin-top: 1.5rem;
+}
+.api-payload-box{
+    display: flex;
+    flex-direction: row;
+}
+.api--method{
+    margin-top: 28px;
+}
+.api-url{
+    margin-left: 20px;
+}
+.api-headers{
+    margin-top: 1.5rem;
+}
+.api-description{
+    margin-top: 1.5rem;
+}
+.api-payload-box{
+    margin-top: 1.5rem;
+}
+.api-data-result{
+    margin-left: 20px;
+}

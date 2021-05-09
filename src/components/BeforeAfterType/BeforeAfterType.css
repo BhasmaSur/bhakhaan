@@ -1,0 +1,41 @@
+.before-after-container{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+    margin-top: 1.5rem;
+    padding: 2rem;
+}
+.before-after-after-pic{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.before-after-before-pic{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.before-after-pic-box{
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: row;
+}
+.before-box{
+    width: 50%;
+    height: 400px;
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+}
+.after-box{
+    width: 50%;
+    height: 400px;
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+}
+.before-after-description{
+    margin-top: 1.5rem;
+}

@@ -1,0 +1,15 @@
+.form-tool{
+    padding:20px;
+    background:skyblue;
+    border-radius: 45%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 1rem;
+}
+.tool{
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.tool-last{
+    cursor: pointer;
+}

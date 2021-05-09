@@ -1,0 +1,12 @@
+.project-form-container{
+    width: 100%;
+    margin: 1rem;
+    display: flex;
+    flex-direction: row;
+}
+.project-data-container{
+    width: 90%;
+}
+.project-tool-container{
+
+}

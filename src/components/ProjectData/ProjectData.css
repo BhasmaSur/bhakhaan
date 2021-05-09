@@ -1,0 +1,156 @@
+.form-container{
+    display: flex;
+    flex-direction: column; 
+}
+.page-title{
+    text-align: center;
+}
+.form-details{
+    display: flex;
+    flex-direction: row;
+    margin-top: 3rem;
+}
+.generted-data{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.checkbox-style{
+    margin-top: 0px;
+}
+
+/*===========*/
+
+.website-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid;
+    padding: 2rem;
+    margin-top: 2rem;
+    width: 60rem;
+}
+.browser{
+    width: 50%;
+    border: 1px solid black;
+    height: 400px;
+    border-radius: 5px;
+}
+.not-browser{
+    width: 50%;
+}
+
+.sub-data-web-description{
+    margin-top: 1.5rem;
+}
+.sub-data-web-url{
+    margin-top: 1.5rem;
+}
+.sub-data-web-categories{
+    margin-top: 1.5rem;
+}
+
+/*===========*/
+
+.api-url-container{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+    margin-top: 1.5rem;
+    padding: 2rem;
+}
+.api-url-box{
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: row;
+}
+.api-title{
+    margin-top: 1.5rem;
+}
+.api-payload-box{
+    display: flex;
+    flex-direction: row;
+}
+.api--method{
+    margin-top: 28px;
+}
+.api-url{
+    margin-left: 20px;
+}
+.api-headers{
+    margin-top: 1.5rem;
+}
+.api-description{
+    margin-top: 1.5rem;
+}
+.api-payload-box{
+    margin-top: 1.5rem;
+}
+.api-data-result{
+    margin-left: 20px;
+}
+
+/*===========*/
+
+
+/*===========*/
+
+
+
+/*===========*/
+.other-container{
+    padding: 2rem;
+    border: 1px solid;
+    margin-top: 1.5rem;
+}
+.other-title{
+    margin-top: 1.5rem;
+   
+}
+.other-image{
+    margin-top: 1.5rem;
+    text-align: center;
+}
+.other-caption{
+    margin-top: 1.5rem;
+}
+.other-description{
+    margin-top: 1.5rem;
+}
+
+
+
+
+
+.preview_wrap {
+    width: 100%;
+    height: 400px;
+    padding: 0;
+    overflow: hidden;
+}
+.frame_wrap {
+    width: 1280px;
+    height: 786px;
+    border: 0;
+    -ms-transform: scale(0.75);
+    -moz-transform: scale(0.75);
+    -o-transform: scale(0.75);
+    -webkit-transform: scale(0.75);
+    transform: scale(0.75);
+
+    -ms-transform-origin: 0 0;
+    -moz-transform-origin: 0 0;
+    -o-transform-origin: 0 0;
+    -webkit-transform-origin: 0 0;
+    transform-origin: 0 0;
+}
+
+.testing{
+    transform: scale(0.437,0.52);
+    transform-origin: 0 0;
+}
+
+
+
+  .testingThis{
+      transform: scale(0.66,1);
+  }

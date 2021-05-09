@@ -1,0 +1,10 @@
+.contact-container{
+    padding: 6rem;
+    margin: auto;
+    margin-top: 20rem;
+    background-color: white;
+}
+.contact-heading{
+    text-align: center;
+    margin-bottom: 4rem;
+}

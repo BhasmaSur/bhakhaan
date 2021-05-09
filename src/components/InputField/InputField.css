@@ -1,0 +1,9 @@
+.input-heading{
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 3px;
+}
+.input-text{
+    height: 50px;
+    width: 350px;
+}

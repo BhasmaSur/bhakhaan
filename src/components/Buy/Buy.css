@@ -1,0 +1,130 @@
+.buy-container{
+    padding: 6rem;
+    margin: auto;
+    margin-top: 20rem;
+    background-color: white;
+}
+.buy-heading{
+    text-align: center;
+    margin-bottom: 4rem;
+}
+.search-bar{
+    display: flex;
+    flex-direction: row;
+}
+
+.box-side{
+    margin-top: 0rem;
+}
+.box-outer{
+    margin: auto;
+    margin-top: 0px;
+    width: 50%;
+    text-align: center;
+    border: 1px solid;
+    border-radius: 25px;
+}
+.search-outer{
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    padding-left:3px;
+    margin: 0px;
+  
+}
+.btnDiv{
+    text-align: center;
+    padding:10px;
+    padding-top: 14px;
+}
+.buy-input{
+    font-size: 20px;
+    width: 100%;
+    text-align: left;
+    padding-left: 0px;
+    border-radius: 25px;
+    border: 0px;
+}
+.buy-input:focus{
+    border: 0px;
+}
+input:focus {
+    outline: none;
+    background-color: white;
+  }
+:host ::ng-deep .highlight{
+    background-color: #F2E366;
+}
+.search-list{
+    outline: none;
+    text-align: left;
+    padding: 0px;
+    padding-left:3rem;
+    margin: 0px;
+    border-radius: 25px;
+}
+.project-heading{
+    margin-bottom: 3.7rem;
+}
+.search-line{
+    width: 90%;
+    margin-left: 3rem;
+}
+.project-item{
+    margin: 2rem 0rem;
+}
+.project-name{
+    font-size: 25px;
+}
+.project-descr{
+    width: 20rem;
+    font-size: 15px;
+}
+.project-dev{
+    font-size: 20px;
+}
+.returned-data-box{
+    margin: 3rem;
+}
+.returned-item{
+    margin: 2rem 0rem;
+}
+.returned-heading{
+    font-size: 25px;
+}
+.returned-desc{
+    font-size: 15px;
+}
+.returned-categories{
+    font-size: 18px;
+}
+.returned-dev{
+    font-size:15px
+}
+@media screen and (max-width: 768px){
+    .box-side{
+        margin-top: 3rem;
+    }
+    .search-bar{
+        display: flex;
+        flex-direction: column;
+    }
+    .buy-container{
+        padding: 6rem;
+        margin: auto;
+        margin-top: 20rem;
+        padding-left: 20px;
+        padding-right: 20px;
+        background-color: white;
+    }
+    .box-outer{
+        margin: auto;
+        width: 100%;
+        text-align: center;
+    }
+    .returned-data-box{
+        margin: 3rem;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+    }
+}

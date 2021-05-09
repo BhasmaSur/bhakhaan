@@ -1,0 +1,18 @@
+.yoga-container{
+    padding: 2rem;
+    border: 1px solid;
+    margin-top: 1.5rem;
+}
+.yoga-title{
+    margin-top: 1.5rem;
+}
+.yoga-image{
+    margin-top: 1.5rem;
+    text-align: center;
+}
+.yoga-caption{
+    margin-top: 1.5rem;
+}
+.yoga-description{
+    margin-top: 1.5rem;
+}

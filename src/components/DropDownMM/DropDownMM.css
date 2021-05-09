@@ -1,0 +1,16 @@
+
+.dropdown-flex{
+    display: grid;
+    grid-template-columns: 90% 10%;
+    border: 1px solid;
+    padding: 5px;
+}
+.dropdown-title{
+    margin-left: 10px;
+}
+.dropdown-list{
+    padding: 10px;
+}
+.box{
+    border: 1px solid;
+}

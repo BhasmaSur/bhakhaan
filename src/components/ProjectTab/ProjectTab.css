@@ -1,0 +1,21 @@
+.project-tab-plus{
+    cursor: pointer;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right:20px;
+    text-align: center;
+}
+.project-tab-separator{
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 30px;
+    border: 0.05px solid rgb(107, 107, 236);
+    font-size: 30px;
+}
+.project-tab-close{
+    margin-left: 2px;
+}
+.project-tab-box{
+    display: flex;
+    flex-direction: row;
+}

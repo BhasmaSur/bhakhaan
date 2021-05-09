@@ -1,0 +1,70 @@
+.what-container{
+    padding: 6rem;
+    background: #fff;
+}
+.what-heading{
+    text-align: center;
+    margin-bottom: 4rem;
+}
+.what-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.what-item{
+    margin-bottom: 2rem;
+}
+.circle-container{
+    margin: auto;
+    width: 50%;
+    margin-bottom: 0.5rem;
+}
+.text-style{
+    text-align: center;
+}
+.dot {
+    background:white;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    border: 3px solid grey;
+    vertical-align: middle;
+    padding-top: 26px;
+}
+.icon-size{
+    font-size: large;
+}
+.what-icon{
+    text-align: center;
+
+}
+.what-caution{
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.what-caution-text{
+    font-size: 20px;
+    padding-top: 7px;
+}
+@media screen and (max-width: 768px){
+    .what-list{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .what-caution{
+        margin-top: 3rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .what-caution-text{
+        text-align: center;
+        font-size: 20px;
+        padding-top: 7px;
+    }
+}
+    
